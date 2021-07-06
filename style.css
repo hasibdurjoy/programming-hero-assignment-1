@@ -1,0 +1,151 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+section{
+    padding-bottom: 100px;
+}
+.flexible{
+    display: flex;
+}
+h1{
+    font-size: 50px;
+}
+.top-nav {
+    padding: 0 15px;
+    margin: 15px auto;
+    background-image: linear-gradient(salmon blue);
+  }
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(253, 194, 188);
+    margin-top: -20px;
+  }
+  a,p,li,button {
+  text-decoration: none;
+}
+.header-section{
+    text-decoration: none;
+}
+  .nav-links li {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  .nav-links li a {
+    font-weight: 1000;
+    color: var(--ternaryBold);
+    margin: 0 10px;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    border: 2px solid;
+    border-radius: 10px;
+  }
+  
+  .nav-links li a:hover {
+    background-color: rgb(255, 230, 0);
+    color: red;
+    border-radius: 15px;
+  }
+  
+  .logo {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--ternaryBold);
+    padding: 10px 20px;
+    cursor: pointer;
+    letter-spacing: 0.2em;
+    text-align: left;
+  }
+.changed-color{
+    color: tomato;
+}  
+.top-banner-section{
+    background-image: url(image/Frame\ 59.jpg);
+}
+.welcome-div{
+    width: 50%;
+    margin-left: 2%;
+}
+.welcome-image-div{
+    width: 50%;
+}
+.coloured-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    font-weight: 700;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+}
+.about-us-section{
+    background-image: url(image/7.png);
+}
+.about-section-image{
+    width: 40%;
+    padding-left: 10%;
+}
+.about-us-paragraph{
+    width: 55%;
+}
+.last-recipe-section{
+    text-align: center;
+    padding: 0% 25%;
+}
+.top-item{
+    text-align: center;
+}
+.box-1{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.box-1-image{
+    width: 100%;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(49, 48, 48);
+    margin: 0;
+    min-height: 10vh;
+    margin-bottom: -40px;
+}
+.order-form-section{
+    background-image: url(image/Frame\ 57.jpg);
+}
+.order-form-div{
+    border: 5px solid;
+    margin: 0 30%;
+    padding: 5%;
+    border-radius: 10px;
+}
+.form-text{
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 40px;
+}
+input{
+    text-size-adjust: 20px;
+}
+.order-form{
+
+}
+.confirm-order{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    text-decoration: none;
+    background: rgb(78,189,12);
+    background: linear-gradient(90deg, rgba(78,189,12,1) 0%, rgba(13,242,51,1) 35%, rgba(0,255,64,1) 100%);font-weight: 700;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 5px;
+}
